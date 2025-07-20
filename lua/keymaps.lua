@@ -8,3 +8,4 @@ vim.keymap.set("i", "<C-s>", "<Esc>:w<CR>", { desc = "Save file",  silent = true
 vim.keymap.set("n", "<C-d>", "<C-d>zz", {});
 vim.keymap.set("n", "<C-u>", "<C-u>zz", {});
 vim.keymap.set({"n", "i"}, "<M-a>", "<Esc>A", { desc = "Go to end of line in insert mode", silent = true, noremap = true })
+
