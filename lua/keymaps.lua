@@ -9,3 +9,8 @@ vim.keymap.set("n", "<C-d>", "<C-d>zz", {});
 vim.keymap.set("n", "<C-u>", "<C-u>zz", {});
 vim.keymap.set({"n", "i"}, "<M-a>", "<Esc>A", { desc = "Go to end of line in insert mode", silent = true, noremap = true })
 
+vim.keymap.set("n", "<M-j>", "<cmd>cnext <CR>");
+vim.keymap.set("n", "<M-k>", "<cmd>cprev <CR>");
+vim.keymap.set("n", "<M-q>", "<cmd>cclose <CR>");
+vim.keymap.set("n", "<M-o>", "<cmd>copen <CR>");
+
