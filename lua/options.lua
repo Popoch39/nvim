@@ -17,7 +17,7 @@ vim.opt.scrolloff = 999
 
 vim.opt.inccommand = "split"
 vim.opt.ignorecase = true
-vim.otp.smartcase = true
+vim.opt.smartcase = true
 
 vim.opt.termguicolors = true
 
