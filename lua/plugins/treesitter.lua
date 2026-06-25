@@ -5,8 +5,9 @@ return {
     build = ":TSUpdate",
     config = function()
         local ensure_installed = {
-            "c", "rust", "typescript", "javascript", "lua", "vim",
+            "c", "rust", "typescript", "tsx", "javascript", "lua", "vim",
             "vimdoc", "query", "markdown", "markdown_inline",
+            "php", "phpdoc",
         }
 
         local nts = require("nvim-treesitter")

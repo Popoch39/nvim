@@ -21,6 +21,14 @@ return {
     statuscolumn = { enabled = true },
     words = { enabled = true },
     image = { enabled = true },
+    lazygit = {
+      win = {
+        position = "float",
+        width = 0,
+        height = 0,
+        border = "none",
+      },
+    },
 
   },
   keys     = {

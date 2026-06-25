@@ -32,7 +32,16 @@ return {
                 severity_sort = true,
             })
 
-            null_ls.setup({})
+            null_ls.setup({
+                sources = {
+                    null_ls.builtins.formatting.pint,
+                    null_ls.builtins.formatting.blade_formatter,
+                    null_ls.builtins.formatting.prettier.with({
+                        filetypes = { "html", "css", "scss", "json", "yaml", "markdown" },
+                    }),
+                    null_ls.builtins.diagnostics.phpstan,
+                },
+            })
             vim.keymap.set("n", "<leader>fm", vim.lsp.buf.format, {})
         end,
         dependencies = {
@@ -46,9 +55,9 @@ return {
             "williamboman/mason.nvim",
             "nvimtools/none-ls.nvim",
         },
-        config = function()
-            require("null-ls") -- require your null-ls config here (example below)
-        end,
+        opts = {
+            ensure_installed = { "pint", "phpstan", "blade-formatter", "prettier" },
+        },
     }
 
 }
