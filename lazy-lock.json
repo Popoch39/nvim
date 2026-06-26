@@ -1,7 +1,7 @@
 {
   "Comment.nvim": { "branch": "master", "commit": "e30b7f2008e52442154b66f7c519bfd2f1e32acb" },
   "blink.cmp": { "branch": "main", "commit": "78336bc89ee5365633bcf754d93df01678b5c08f" },
-  "claude-tmux-notify.nvim": { "branch": "master", "commit": "22b2e42750b36f88e6a8191ce1f42667b4e1714a" },
+  "claude-tmux-notify.nvim": { "branch": "master", "commit": "12ae624f6c095e66e4f494b253e16612499fe32f" },
   "copilot.vim": { "branch": "release", "commit": "a12fd5672110c8aa7e3c8419e28c96943ca179be" },
   "fidget.nvim": { "branch": "main", "commit": "6f793b2bcd2d35e201c09520f698bb763220908a" },
   "flash.nvim": { "branch": "main", "commit": "fcea7ff883235d9024dc41e638f164a450c14ca2" },
@@ -23,6 +23,7 @@
   "nvim-surround": { "branch": "main", "commit": "8b47db616ef658b8fc27e61db2896aa2f40134de" },
   "nvim-treesitter": { "branch": "main", "commit": "4916d6592ede8c07973490d9322f187e07dfefac" },
   "nvim-web-devicons": { "branch": "master", "commit": "dfbfaa967a6f7ec50789bead7ef87e336c1fa63c" },
+  "obsidian.nvim": { "branch": "main", "commit": "e5c03e7ce988e2aa53ae47a9de4c817621e4714b" },
   "octo.nvim": { "branch": "master", "commit": "66b8eeca8e18213a19742f8a031e6947c738342f" },
   "plenary.nvim": { "branch": "master", "commit": "74b06c6c75e4eeb3108ec01852001636d85a932b" },
   "pokemon.nvim": { "branch": "main", "commit": "50c618f88f1ee7cbd0e0d8194176b0d47f6f1c40" },
